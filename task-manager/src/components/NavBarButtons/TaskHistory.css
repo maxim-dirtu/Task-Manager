@@ -1,0 +1,34 @@
+/* TaskContainer.css */
+
+.task-history-container {
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.task-history-container:hover {
+  transform: scale(1.05);
+}
+
+.task-history-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Add more styles as needed for TaskItem or any other nested components */
+.task-history-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.go-back-container {
+  margin-top: 20px;
+}

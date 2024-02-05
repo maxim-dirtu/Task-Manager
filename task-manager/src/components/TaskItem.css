@@ -1,0 +1,66 @@
+/* TaskItem.css */
+
+.task-item {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.task-item:hover {
+  transform: scale(1.05);
+}
+
+.task-item h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.task-item .description {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Add more styles as needed for other task properties */
+
+.assign-task-to-user{
+  display: flex;
+  align-items: center;
+}
+.assign-task-to-user label {
+  margin-right: 10px; 
+}
+
+.markCompleted {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.markCompleted button {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.markClosed {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+.markClosed button {
+  background-color: red;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
